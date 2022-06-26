@@ -1,0 +1,68 @@
+body {
+        background-color: black;
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+}
+
+.nav-links a {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: large;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 14px 16px;
+}
+
+a:hover {
+        background-color: tomato;
+        color: aliceblue;
+}
+
+.page-view {
+        background-image: url("image.jpg");
+}
+
+.header {
+        text-align: center;
+        color: aliceblue;
+}
+
+.mail-text {
+        color: tomato;
+}
+
+.input-field {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
+}
+
+input {
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 75%;
+        border-radius: 15px;
+        padding: 10px;
+}
+
+#message-field {
+        margin-top: 6px;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 75%;
+        padding: 58px;
+        margin-bottom: 50px;
+}
+
+button {
+        background-color: lightskyblue;
+        padding: 20px;
+        margin-left: 46%;
+        border-radius: 15px;
+        margin-bottom: 50px;
+}
